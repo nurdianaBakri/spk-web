@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-	<title>Forms - Atlantis Lite Bootstrap 4 Admin Dashboard</title>
+	<title>Sistem pedukung keputusan - SPK</title>
 	<meta content='width=device-width, initial-scale=1.0, shrink-to-fit=no' name='viewport' />
 	<link rel="icon" href="<?php echo base_url()."assets/" ?>assets/img/icon.ico" type="image/x-icon"/>
 	
@@ -39,8 +39,9 @@
 			<!-- Logo Header -->
 			<div class="logo-header" data-background-color="blue">
 				
-				<a href="../index.html" class="logo">
+				<a href="<?= base_url(); ?>" class="logo">
 					<img src="<?php echo base_url()."assets/" ?>assets/img/logo.svg" alt="navbar brand" class="navbar-brand">
+					<!-- SPK -->
 				</a>
 				<button class="navbar-toggler sidenav-toggler ml-auto" type="button" data-toggle="collapse" data-target="collapse" aria-expanded="false" aria-label="Toggle navigation">
 					<span class="navbar-toggler-icon">

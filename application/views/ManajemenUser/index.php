@@ -49,6 +49,7 @@
 										<table id="add-row" class="display table table-striped table-hover" >
 											<thead>
 												<tr>
+													<th>No</th>
 													<th>Nama</th>
 													<th>Username</th>
 													<th>Alamat</th>
@@ -59,6 +60,7 @@
 											</thead>
 											<tfoot>
 												<tr>
+													<th>No</th>
                                                     <th>Nama</th>
 													<th>Username</th>
 													<th>Alamat</th>
@@ -69,8 +71,11 @@
 											</tfoot>
 											<tbody id="show_data">
 
-												<?php foreach ($data as $key): ?>
+												<?php 
+												$no=1;
+												foreach ($data as $key): ?>
 													<tr>
+														<td><?php echo $no++?></td>
 														<td><?php echo $key->nama?></td>
 														<td><?php echo $key->username; ?></td>
 														<td><?php echo $key->alamat?></td>
